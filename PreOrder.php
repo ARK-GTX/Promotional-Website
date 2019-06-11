@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,16 +10,63 @@
 </head>
 <body>
 
+
     <h2>Pre Order!</h2>
+    <br>
+    <br>
+    <br>
 
-    <form class="PreOrderNow" id='PreOrderNow' method="POST">
+    <form action="includes/signup.php" method="POST">
 
-    <input type='hidden' name ='Email' value='value'>
-    <button type='Submit'>Submit</button>
-
+        <input type="text" name="email" placeholder="Email Address">
+    <br>
+        <input type="text" name="AccntNum" placeholder="BML Account Number">
+    <br>
+        <input type="text" name="username" placeholder="Username">
+    <br>
+    <br>
+    <button type="submit" name="submit">Sign up</button>
 
     </form>
 
+
+
+    <h3>By signing up, you will receive real-time news about our progress. </h3>
+
+
+    <div action ="GetDbData">
+
     
+
+    </div>
+
+
+
+<?php
+
+
+
+
+
+
+
+/*
+$ResultCheck = mysqli_num_rows($result);
+
+if($ResultCheck > 0){
+    while ($row =mysqli_fetch_assoc($result)){
+        echo $row['username']. "<br>";
+
+    }
+
+}
+
+*/
+
+?>
+
+
+
+
 </body>
 </html>

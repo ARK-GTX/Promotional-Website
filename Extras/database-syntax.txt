@@ -1,0 +1,1110 @@
+CREATE TABLE Subscribers (
+    id                   int (10)            not null        PRIMARY KEY      AUTO_INCREMENT,
+    username             varchar(30)         not null, 
+    email                varchar(30)         not null,
+    BmlAccntNumb         varchar(30)         not null            
+    
+);
+
+
+
+INSERT INTO subscribers (id, username, email , BmlAccntNumb) VALUES ('','Aardvark','Aardvark@gmail.com','777421948215');
+
+INSERT INTO subscribers (id, username, email , BmlAccntNumb) VALUES ('','Person2','Person2@gmail.com','7773909305595');
+
+INSERT INTO subscribers (id, username, email , BmlAccntNumb) VALUES ('','JohnDoe','JohnDoe@gmail.com','7779093649512');
+
+INSERT INTO subscribers (id, username, email , BmlAccntNumb) VALUES ('','JaneDoe','JaneDoe@gmail.com','77735030-06418');
+
+
+
+
+
+
+
+
+
+@media screen and (min-device-width: 1042px) and (max-device-width:1300px){  /*  For Tablets  */
+
+    body{background-color: blue; }
+
+    .ModdedNavbar{
+        margin:0;
+        padding: 0;
+        position: relative;
+        top: 0;
+        background-color:rgba(63, 63, 63, 0.23);
+        height:54px;
+        z-index: 3;
+        
+    
+    
+    }  
+    
+    
+    
+    #Kinesis_Description{  /* Navbar LIGHTBLUE Description Button Placement in Document. */
+    
+        width: 160px;
+        height: 23px;
+        position: relative;
+        text-decoration: none;
+        font-size: 20px;
+        font-style: bold;
+        
+        
+    
+    }
+    
+    
+    #Principle_Of_Kinesis{  /* Navbar DARKBLUE Principle Button  Placement in Document. */
+    
+        width: 160px;
+        height: 23px;
+        position: relative;
+        text-decoration: none;
+        font-size: 20px;
+        font-style: bold;
+        
+    
+    }
+    
+    #Applications_Of_Kinesis{  /* Navbar BLUE Applications Placement Button  in Document. */
+    
+        width: 160px;
+        height: 23px;
+        position: relative;
+        text-decoration: none;
+        font-size: 20px;
+        font-style: bold;
+    
+    }
+    
+    
+    #PreorderNowNavbar{  /* Navbar NAVYBLUE Preorder-Now Placement Button  in Document. */
+    
+        width: 160px;
+        height: 23px;
+        position: relative;
+        text-decoration: none;
+        font-size: 20px;
+        font-style: bold;
+        
+    
+    }
+    
+    #AboutUsNavbar{  /* Navbar DARKBLUE About-Us Button  Placement in Document. */
+    
+        width: 160px;
+        height: 23px;
+        position: relative;
+        text-decoration: none;
+        font-size: 20px;
+        font-style: bold;
+        
+    
+    }
+    
+    
+    
+    
+    
+        #ExecutiveTitle{
+            position: absolute;
+            font-size: 650%;
+            top:290px;
+            left:20%;
+            opacity:0;
+        
+            animation-name: FlyInTitle;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+        
+        
+        }
+        
+        #Subtitle{
+            position: absolute;
+            top:29%;
+            left:20%;
+            font-size: 22px;
+            top:390px;
+            opacity:0;
+        
+            animation-name: FlyInSubtitle;
+            animation-delay: 1s;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            
+        }
+        
+        
+        
+        #Smartphone{
+            position: absolute;
+            top:115%;
+            left:45.6%;
+            height:60% ;
+            width:20% ;
+            color: black;
+            z-index: 1;
+        
+        
+            animation-name: CHANGE_DEF_XX ;
+            animation-duration: 1s;
+        
+            -webkit-animation: CHANGE_DEF_XX ;
+            -webkit-animation-duration: 4s; 
+        }
+        
+        .Content1{
+            z-index: 1;
+            position: absolute;
+            left:50%;
+            top:135%;
+            opacity:0;
+        
+        
+        
+            animation-name: ChangeContent1;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+        
+        
+        }
+        
+        .Content2{
+            z-index: 1;
+            position: absolute;
+            left:50%;
+            top:135%;
+            opacity:0;
+        
+            animation-name: ChangeContent2;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+            
+        
+        }
+        
+        
+        .PsyWave{
+        
+            position: relative;
+            left: 340px;
+            top:670px;
+            opacity:0;
+            z-index:-1;
+        
+            animation-name: AlphaWaves;
+            animation-duration: 1s;
+            animation-iteration-count: 10;
+        
+        
+            border: 2px solid palevioletred;
+            width: 90px;
+            height:90px;
+            border-radius: 50%
+        
+        
+        
+        
+        }
+    
+        .BrainImage{
+            height: 320px;
+            width: 320px;
+            position: absolute;
+            top:120%;
+            left: 10%;
+        
+        }
+        
+        
+        
+        
+        .Old-Woman-In-WheelChair{
+            height: 150px;
+            width: 100px;
+            position: absolute;
+            left:33%;
+            top: 260%;
+            }
+        
+        .Plaster-Hand{
+            height: 140px;
+            width: 200px;
+            position: absolute;
+            left:41%;
+            top: 260%;
+        
+        
+            
+        }
+        .Autism-Tag{
+            height: 150px;
+            width: 100px;
+            position: absolute;
+            left:60%;
+            top: 260%;
+        
+            
+        }
+        
+        .PreOrderButton{
+            height: 150px;
+            width: 100px;
+            position: absolute;
+            left:30%;
+            top: 440%;
+            
+        
+            
+            
+        }
+        
+        
+        .AboutUsButton{
+            height: 150px;
+            width: 100px;
+            position: absolute;
+            left:60%;
+            top: 440%;
+        
+        }
+        
+        
+        
+        .ProgrammerNote{
+            position: absolute;
+            top:500%;
+            left:35%;
+        }
+        
+        .linebreak1{
+            border:1px solid black;
+            position: absolute;
+            top:500px;
+            width: 1340px;
+        }
+        
+        
+        .linebreak2{
+            border:1px solid black;
+            position: absolute;
+            top:1400px;
+            width: 1340px;
+        }
+        
+        .linebreak3{
+            border:1px solid black;
+            position: absolute;
+            top:2400px;
+            width: 1340px;
+        }
+        
+        
+        .Dogether{
+            height:400px;
+            position: absolute;
+            top:290%;
+            left:30%;
+        }
+        
+        
+        .TitleApplicationsOfKinesis{
+            position: absolute;
+            top:85%;
+            left:45%;
+        }
+        
+        
+        
+        .TitleBenificiariesOfKinesis{
+            position: absolute;
+            top:230%;
+            left:45%;
+        }
+        
+        
+        .TitleGetStartedToday{
+            position: absolute;
+            top:390%;
+            left:45%;
+        }
+        
+        
+        @keyframes ChangeContent1 {
+        
+                0%      { opacity:0; }
+                50%     {  opacity:1; }
+                100%    { opacity:0; }
+            
+            
+            }
+        
+        @keyframes ChangeContent2 {
+        
+            0%      { opacity:1; }
+            50%     {  opacity:0; }
+            100%    { opacity:1; }
+            
+            
+            }
+        
+        @keyframes FlyInTitle{
+        
+            0%      { top:290px; opacity:0; }
+            100%    { top:70px; opacity:1; }
+        }
+        
+        @keyframes FlyInSubtitle{
+        
+            0%      { top:490px; opacity:0; }
+            100%    { top:230px; opacity:1; }
+        }
+        
+        
+        @keyframes AlphaWaves{
+        
+            0%      {     width: 90px;
+                          height:90px;
+                          border-radius: 50%;
+                          opacity:1; 
+                    }
+        
+            100%    {     width: 600px;
+                          height:600px;
+                          border-radius: 50%;
+                          opacity:0; 
+                        }
+        }
+    
+
+}
+
+
+@media screen and (min-device-width: 600px) and (max-device-width:1040px){  /*  For Wide screen Smartphones  */
+
+    body{background-color: green; }
+
+    .ModdedNavbar{
+        margin:0;
+        padding: 0;
+        position: relative;
+        top: 0;
+        background-color:rgba(63, 63, 63, 0.23);
+        height:54px;
+        z-index: 3;
+        
+    
+    
+    }  
+    
+    
+    
+    #Kinesis_Description{  /* Navbar LIGHTBLUE Description Button Placement in Document. */
+    
+        width: 160px;
+        height: 23px;
+        position: relative;
+        text-decoration: none;
+        font-size: 20px;
+        font-style: bold;
+        
+        
+    
+    }
+    
+    
+    #Principle_Of_Kinesis{  /* Navbar DARKBLUE Principle Button  Placement in Document. */
+    
+        width: 160px;
+        height: 23px;
+        position: relative;
+        text-decoration: none;
+        font-size: 20px;
+        font-style: bold;
+        
+    
+    }
+    
+    #Applications_Of_Kinesis{  /* Navbar BLUE Applications Placement Button  in Document. */
+    
+        width: 160px;
+        height: 23px;
+        position: relative;
+        text-decoration: none;
+        font-size: 20px;
+        font-style: bold;
+    
+    }
+    
+    
+    #PreorderNowNavbar{  /* Navbar NAVYBLUE Preorder-Now Placement Button  in Document. */
+    
+        width: 160px;
+        height: 23px;
+        position: relative;
+        text-decoration: none;
+        font-size: 20px;
+        font-style: bold;
+        
+    
+    }
+    
+    #AboutUsNavbar{  /* Navbar DARKBLUE About-Us Button  Placement in Document. */
+    
+        width: 160px;
+        height: 23px;
+        position: relative;
+        text-decoration: none;
+        font-size: 20px;
+        font-style: bold;
+        
+    
+    }
+    
+    
+    
+    
+    
+        #ExecutiveTitle{
+            position: absolute;
+            font-size: 650%;
+            top:290px;
+            left:20%;
+            opacity:0;
+        
+            animation-name: FlyInTitle;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+        
+        
+        }
+        
+        #Subtitle{
+            position: absolute;
+            top:29%;
+            left:20%;
+            font-size: 22px;
+            top:390px;
+            opacity:0;
+        
+            animation-name: FlyInSubtitle;
+            animation-delay: 1s;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            
+        }
+        
+        
+        
+        #Smartphone{
+            position: absolute;
+            top:115%;
+            left:45.6%;
+            height:60% ;
+            width:20% ;
+            color: black;
+            z-index: 1;
+        
+        
+            animation-name: CHANGE_DEF_XX ;
+            animation-duration: 1s;
+        
+            -webkit-animation: CHANGE_DEF_XX ;
+            -webkit-animation-duration: 4s; 
+        }
+        
+        .Content1{
+            z-index: 1;
+            position: absolute;
+            left:50%;
+            top:135%;
+            opacity:0;
+        
+        
+        
+            animation-name: ChangeContent1;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+        
+        
+        }
+        
+        .Content2{
+            z-index: 1;
+            position: absolute;
+            left:50%;
+            top:135%;
+            opacity:0;
+        
+            animation-name: ChangeContent2;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+            
+        
+        }
+        
+        
+        .PsyWave{
+        
+            position: relative;
+            left: 340px;
+            top:670px;
+            opacity:0;
+            z-index:-1;
+        
+            animation-name: AlphaWaves;
+            animation-duration: 1s;
+            animation-iteration-count: 10;
+        
+        
+            border: 2px solid palevioletred;
+            width: 90px;
+            height:90px;
+            border-radius: 50%
+        
+        
+        
+        
+        }
+    
+        .BrainImage{
+            height: 320px;
+            width: 320px;
+            position: absolute;
+            top:120%;
+            left: 10%;
+        
+        }
+        
+        
+        
+        
+        .Old-Woman-In-WheelChair{
+            height: 150px;
+            width: 100px;
+            position: absolute;
+            left:33%;
+            top: 260%;
+            }
+        
+        .Plaster-Hand{
+            height: 140px;
+            width: 200px;
+            position: absolute;
+            left:41%;
+            top: 260%;
+        
+        
+            
+        }
+        .Autism-Tag{
+            height: 150px;
+            width: 100px;
+            position: absolute;
+            left:60%;
+            top: 260%;
+        
+            
+        }
+        
+        .PreOrderButton{
+            height: 150px;
+            width: 100px;
+            position: absolute;
+            left:30%;
+            top: 440%;
+            
+        
+            
+            
+        }
+        
+        
+        .AboutUsButton{
+            height: 150px;
+            width: 100px;
+            position: absolute;
+            left:60%;
+            top: 440%;
+        
+        }
+        
+        
+        
+        .ProgrammerNote{
+            position: absolute;
+            top:500%;
+            left:35%;
+        }
+        
+        .linebreak1{
+            border:1px solid black;
+            position: absolute;
+            top:500px;
+            width: 1340px;
+        }
+        
+        
+        .linebreak2{
+            border:1px solid black;
+            position: absolute;
+            top:1400px;
+            width: 1340px;
+        }
+        
+        .linebreak3{
+            border:1px solid black;
+            position: absolute;
+            top:2400px;
+            width: 1340px;
+        }
+        
+        
+        .Dogether{
+            height:400px;
+            position: absolute;
+            top:290%;
+            left:30%;
+        }
+        
+        
+        .TitleApplicationsOfKinesis{
+            position: absolute;
+            top:85%;
+            left:45%;
+        }
+        
+        
+        
+        .TitleBenificiariesOfKinesis{
+            position: absolute;
+            top:230%;
+            left:45%;
+        }
+        
+        
+        .TitleGetStartedToday{
+            position: absolute;
+            top:390%;
+            left:45%;
+        }
+        
+        
+        @keyframes ChangeContent1 {
+        
+                0%      { opacity:0; }
+                50%     {  opacity:1; }
+                100%    { opacity:0; }
+            
+            
+            }
+        
+        @keyframes ChangeContent2 {
+        
+            0%      { opacity:1; }
+            50%     {  opacity:0; }
+            100%    { opacity:1; }
+            
+            
+            }
+        
+        @keyframes FlyInTitle{
+        
+            0%      { top:290px; opacity:0; }
+            100%    { top:70px; opacity:1; }
+        }
+        
+        @keyframes FlyInSubtitle{
+        
+            0%      { top:490px; opacity:0; }
+            100%    { top:230px; opacity:1; }
+        }
+        
+        
+        @keyframes AlphaWaves{
+        
+            0%      {     width: 90px;
+                          height:90px;
+                          border-radius: 50%;
+                          opacity:1; 
+                    }
+        
+            100%    {     width: 600px;
+                          height:600px;
+                          border-radius: 50%;
+                          opacity:0; 
+                        }
+        }
+    
+
+}
+
+
+    
+}
+
+
+
+@media screen and (min-device-width: 200px) and (max-device-width:600px){  /*  Small screen Smartphones  */
+
+    body{background-color: pink; }
+
+    }
+
+
+    .ModdedNavbar{
+        margin:0;
+        padding: 0;
+        position: relative;
+        top: 0;
+        background-color:rgba(63, 63, 63, 0.23);
+        height:54px;
+        z-index: 3;
+        
+    
+    
+    }  
+    
+    
+    
+    #Kinesis_Description{  /* Navbar LIGHTBLUE Description Button Placement in Document. */
+    
+        width: 160px;
+        height: 23px;
+        position: relative;
+        text-decoration: none;
+        font-size: 20px;
+        font-style: bold;
+        
+        
+    
+    }
+    
+    
+    #Principle_Of_Kinesis{  /* Navbar DARKBLUE Principle Button  Placement in Document. */
+    
+        width: 160px;
+        height: 23px;
+        position: relative;
+        text-decoration: none;
+        font-size: 20px;
+        font-style: bold;
+        
+    
+    }
+    
+    #Applications_Of_Kinesis{  /* Navbar BLUE Applications Placement Button  in Document. */
+    
+        width: 160px;
+        height: 23px;
+        position: relative;
+        text-decoration: none;
+        font-size: 20px;
+        font-style: bold;
+    
+    }
+    
+    
+    #PreorderNowNavbar{  /* Navbar NAVYBLUE Preorder-Now Placement Button  in Document. */
+    
+        width: 160px;
+        height: 23px;
+        position: relative;
+        text-decoration: none;
+        font-size: 20px;
+        font-style: bold;
+        
+    
+    }
+    
+    #AboutUsNavbar{  /* Navbar DARKBLUE About-Us Button  Placement in Document. */
+    
+        width: 160px;
+        height: 23px;
+        position: relative;
+        text-decoration: none;
+        font-size: 20px;
+        font-style: bold;
+        
+    
+    }
+    
+    
+    
+    
+    
+        #ExecutiveTitle{
+            position: absolute;
+            font-size: 650%;
+            top:290px;
+            left:20%;
+            opacity:0;
+        
+            animation-name: FlyInTitle;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+        
+        
+        }
+        
+        #Subtitle{
+            position: absolute;
+            top:29%;
+            left:20%;
+            font-size: 22px;
+            top:390px;
+            opacity:0;
+        
+            animation-name: FlyInSubtitle;
+            animation-delay: 1s;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            
+        }
+        
+        
+        
+        #Smartphone{
+            position: absolute;
+            top:115%;
+            left:45.6%;
+            height:60% ;
+            width:20% ;
+            color: black;
+            z-index: 1;
+        
+        
+            animation-name: CHANGE_DEF_XX ;
+            animation-duration: 1s;
+        
+            -webkit-animation: CHANGE_DEF_XX ;
+            -webkit-animation-duration: 4s; 
+        }
+        
+        .Content1{
+            z-index: 1;
+            position: absolute;
+            left:50%;
+            top:135%;
+            opacity:0;
+        
+        
+        
+            animation-name: ChangeContent1;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+        
+        
+        }
+        
+        .Content2{
+            z-index: 1;
+            position: absolute;
+            left:50%;
+            top:135%;
+            opacity:0;
+        
+            animation-name: ChangeContent2;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+            
+        
+        }
+        
+        
+        .PsyWave{
+        
+            position: relative;
+            left: 340px;
+            top:670px;
+            opacity:0;
+            z-index:-1;
+        
+            animation-name: AlphaWaves;
+            animation-duration: 1s;
+            animation-iteration-count: 10;
+        
+        
+            border: 2px solid palevioletred;
+            width: 90px;
+            height:90px;
+            border-radius: 50%
+        
+        
+        
+        
+        }
+    
+        .BrainImage{
+            height: 320px;
+            width: 320px;
+            position: absolute;
+            top:120%;
+            left: 10%;
+        
+        }
+        
+        
+        
+        
+        .Old-Woman-In-WheelChair{
+            height: 150px;
+            width: 100px;
+            position: absolute;
+            left:33%;
+            top: 260%;
+            }
+        
+        .Plaster-Hand{
+            height: 140px;
+            width: 200px;
+            position: absolute;
+            left:41%;
+            top: 260%;
+        
+        
+            
+        }
+        .Autism-Tag{
+            height: 150px;
+            width: 100px;
+            position: absolute;
+            left:60%;
+            top: 260%;
+        
+            
+        }
+        
+        .PreOrderButton{
+            height: 150px;
+            width: 100px;
+            position: absolute;
+            left:30%;
+            top: 440%;
+            
+        
+            
+            
+        }
+        
+        
+        .AboutUsButton{
+            height: 150px;
+            width: 100px;
+            position: absolute;
+            left:60%;
+            top: 440%;
+        
+        }
+        
+        
+        
+        .ProgrammerNote{
+            position: absolute;
+            top:500%;
+            left:35%;
+        }
+        
+        .linebreak1{
+            border:1px solid black;
+            position: absolute;
+            top:500px;
+            width: 1340px;
+        }
+        
+        
+        .linebreak2{
+            border:1px solid black;
+            position: absolute;
+            top:1400px;
+            width: 1340px;
+        }
+        
+        .linebreak3{
+            border:1px solid black;
+            position: absolute;
+            top:2400px;
+            width: 1340px;
+        }
+        
+        
+        .Dogether{
+            height:400px;
+            position: absolute;
+            top:290%;
+            left:30%;
+        }
+        
+        
+        .TitleApplicationsOfKinesis{
+            position: absolute;
+            top:85%;
+            left:45%;
+        }
+        
+        
+        
+        .TitleBenificiariesOfKinesis{
+            position: absolute;
+            top:230%;
+            left:45%;
+        }
+        
+        
+        .TitleGetStartedToday{
+            position: absolute;
+            top:390%;
+            left:45%;
+        }
+        
+        
+        @keyframes ChangeContent1 {
+        
+                0%      { opacity:0; }
+                50%     {  opacity:1; }
+                100%    { opacity:0; }
+            
+            
+            }
+        
+        @keyframes ChangeContent2 {
+        
+            0%      { opacity:1; }
+            50%     {  opacity:0; }
+            100%    { opacity:1; }
+            
+            
+            }
+        
+        @keyframes FlyInTitle{
+        
+            0%      { top:290px; opacity:0; }
+            100%    { top:70px; opacity:1; }
+        }
+        
+        @keyframes FlyInSubtitle{
+        
+            0%      { top:490px; opacity:0; }
+            100%    { top:230px; opacity:1; }
+        }
+        
+        
+        @keyframes AlphaWaves{
+        
+            0%      {     width: 90px;
+                          height:90px;
+                          border-radius: 50%;
+                          opacity:1; 
+                    }
+        
+            100%    {     width: 600px;
+                          height:600px;
+                          border-radius: 50%;
+                          opacity:0; 
+                        }
+        }
+    
